@@ -12,6 +12,7 @@
 \alias{simulate_postgres}
 \alias{simulate_sqlite}
 \alias{simulate_teradata}
+\alias{simulate_snowflake}
 \title{Simulate database connections}
 \usage{
 simulate_dbi(class = character())
@@ -35,6 +36,8 @@ simulate_postgres()
 simulate_sqlite()
 
 simulate_teradata()
+
+simulate_snowflake()
 }
 \description{
 These functions generate S3 objects that have been designed to simulate

@@ -67,3 +67,7 @@ simulate_sqlite <- function() simulate_dbi("SQLiteConnection")
 #' @export
 #' @rdname simulate_dbi
 simulate_teradata <- function() simulate_dbi("Teradata")
+
+#' @export
+#' @rdname simulate_dbi
+simulate_snowflake <- function() simulate_dbi("SnowflakeOdbcConnection")
